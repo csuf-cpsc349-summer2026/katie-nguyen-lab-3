@@ -197,3 +197,5 @@ Preview of iPad layout
 Preview of iPhone layout
 
 ![iPhone Screenshot](images/screenshot-lab-3-iphone-layout.png)
+
+Link to deployed page can be found at: https://csuf-cpsc349-summer2026.github.io/katie-nguyen-lab-3/
