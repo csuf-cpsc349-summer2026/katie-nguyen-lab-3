@@ -19,23 +19,9 @@ This lab practices:
 
 ## Getting Started
 
-1. Open the lab repository on GitHub.
-2. Click the **Fork** button to create a detached copy of this repository.
-
-![Fork This Repository](images/screenshot_fork.png)
-
-This repository is public by design, so there is no **Use this template** button like there was in the previous two labs. Forking the repository creates your own copy that you can edit and share as a GitHub URL.
-
-3. Rename your forked repository to `firstname-lastname-lab-3`.
-4. If possible, set the owner or organization to `csuf-cpsc349-summer2026`, as shown in the screenshot.
-
-![Rename Forked Repository](images/screenshot_fork_2.png)
-
-If you already forked this lab under your personal GitHub account, that is okay because this repository is public and I can still see your code. For other labs, make sure your work is published under the `csuf-cpsc349-summer2026` organization so I can access it.
-
-5. Open the project in VS Code.
-6. Open [index.html](index.html) in a browser by double-clicking the file or by using Live Server.
-7. Confirm that the page loads.
+1. Open the project in VS Code.
+2. Open [index.html](index.html) in a browser by double-clicking the file or by using Live Server.
+3. Confirm that the page loads.
 
 Reference starting page:
 
@@ -172,12 +158,6 @@ After GitHub finishes deploying, your page should be available at:
 https://csuf-cpsc349-summer2026.github.io/<your repo name>/
 ```
 
-If you deployed the repository under your personal GitHub account instead of the course organization, your URL may use your GitHub username instead:
-
-```text
-https://<your GitHub username>.github.io/<your repo name>/
-```
-
 For example, the reference link for this lab is:
 
 [https://csuf-cpsc349-summer2026.github.io/cpsc-349-sm26-lab-3/](https://csuf-cpsc349-summer2026.github.io/cpsc-349-sm26-lab-3/)
@@ -200,3 +180,20 @@ Students must submit:
 4. A working GitHub Pages link for the deployed movie portal
 5. Evidence that the same responsive design approach was applied to the personalized movie portal
 6. All screenshots must be decorated in the [README.md](README.md) file.
+
+---
+
+# Completed Tasks
+
+Changes to Lab 3 are listed below:
+
+ - Implemented styling for iPad layout/design
+ - Grid for movie cards are displayed in two columns to reduce cluttering of the layout
+
+Preview of iPad layout
+
+![iPad Screenshot](images/screenshot-lab-3-ipad-layout.png)
+
+Preview of iPhone layout
+
+![iPhone Screenshot](images/screenshot-lab-3-iphone-layout.png)
