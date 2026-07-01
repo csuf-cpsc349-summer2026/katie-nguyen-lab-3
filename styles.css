@@ -366,8 +366,8 @@ footer a:focus-visible {
     }
 
     nav ul {
-        width: 100%;
-        justify-content: center;
+        width: 100%;                    /* takes whole width of new phone*/
+        justify-content: center;        /* centers the navigation-bar element */
         gap: 0.25rem;
         padding: 0.4rem 0.5rem;
     }
@@ -384,7 +384,7 @@ footer a:focus-visible {
     }
 
     .movie-card img {
-        width: min(100%, 250px);
+        width: min(100%, 250px);        /* change the size of the movie card */
         height: auto;
         max-height: 420px;
         align-self: center;
@@ -392,6 +392,37 @@ footer a:focus-visible {
 }
 
 /* TODO: Add responsive design for iPads */
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
 
-} */
+    header {
+        padding: 2rem 0;
+    }
+
+    nav ul {
+        width: 100%;
+        justify-content: center;
+        gap: 0.25rem;
+        padding: 0.4rem 0.5rem;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 0.65rem 0.35rem;
+    }
+
+
+    .movie-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .movie-card img {
+        width: min(100%, 250px);
+        height: auto;
+        max-height: 420px;
+        align-self: center;
+    }
+}
